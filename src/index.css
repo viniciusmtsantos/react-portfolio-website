@@ -1,6 +1,10 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3rem;
@@ -121,76 +125,76 @@ img {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
-  padding: 6rem 0 2rem;
+  /* padding: 6rem 0 2rem; */
 }
 
 .section__title {
-  font-size: var(--h1-font-size);
-  color: var(--title-color);
+  /* font-size: var(--h1-font-size); */
+  /* color: var(--title-color); */
 }
 
 .section__subtitle {
-  display: block;
-  font-size: var(--small-font-size);
-  margin-bottom: 4rem;
+  /* display: block; */
+  /* font-size: var(--small-font-size); */
+  /* margin-bottom: 4rem; */
 }
 
 .section__title,
 .section__subtitle {
-  text-align: center;
+  /* text-align: center; */
 }
 
 /*=============== LAYOUT ===============*/
 .container {
-  max-width: 968px;
+  /* max-width: 968px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; */
 }
 
 .grid {
-  display: grid;
-  gap: 1.5rem;
+  /* display: grid;
+  gap: 1.5rem; */
 }
 
 /*=============== BUTTONS ===============*/
 .button {
-  display: inline-block;
+  /* display: inline-block;
   background-color: var(--title-color);
   color: var(--container-color);
   padding: 1.25rem 2rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
-  gap: 0.5rem;
+  gap: 0.5rem; */
 }
 
 .button:hover {
-  background-color: var(--title-color-dark);
+  /* background-color: var(--title-color-dark); */
 }
 
 .button__icon {
-  margin-left: var(--mb-0-5);
+  /* margin-left: var(--mb-0-5); */
 }
 
 .button--flex {
-  display: inline-flex;
-  align-items: center;
+  /* display: inline-flex;
+  align-items: center; */
 }
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
   .container {
-    margin-left: var(--mb-1-5);
-    margin-right: var(--mb-1-5);
+    /* margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5); */
   }
 
   .button {
-    padding: 1rem 1.75rem;
+    /* padding: 1rem 1.75rem; */
   }
 
   .button__icon {
-    width: 22px;
-    height: 22px;
+    /* width: 22px;
+    height: 22px; */
   }
 }
 
@@ -201,11 +205,11 @@ img {
   }
 
   .section {
-    padding: 2rem 0 4rem;
+    /* padding: 2rem 0 4rem; */
   }
 
   .section__subtitle {
-    margin-bottom: var(--mb-3);
+    /* margin-bottom: var(--mb-3); */
   }
 }
 
@@ -218,7 +222,7 @@ img {
   }
 
   .container {
-    margin-left: var(--mb-1);
-    margin-right: var(--mb-1);
+    /* margin-left: var(--mb-1);
+    margin-right: var(--mb-1); */
   }
 }
