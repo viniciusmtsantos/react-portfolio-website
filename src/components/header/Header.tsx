@@ -3,7 +3,8 @@ import { useState } from "react";
 export function Header() {
   const [Toggle, showMenu] = useState(false)
   return (
-    <header className="w-full fixed top-0 left-0 z-50 bg-zinc-50 max-[768px]:bottom-0 max-[768px]:top-[initial]">
+    // <header className="w-full fixed top-0 left-0 z-50 bg-zinc-50 max-[768px]:bottom-0 max-[768px]:top-[initial]">
+    <header className="w-full fixed top-0 left-0 z-50 border-b border-t bg-zinc-50 max-[768px]:bottom-0 max-[768px]:top-[initial]">
       <nav className="h-[4.5rem] max-[768px]:h-12 flex justify-between items-center gap-x-4 max-w-[968px] mx-auto max-[992px]:mx-6 max-[350px]:mx-4">
         <a href="index.html" className="text-zinc-800 font-medium">
           Vinicius Santos
@@ -50,7 +51,7 @@ export function Header() {
               </a>
             </li>
           </ul>
-          <i className="uil uil-times hidden absolute right-6 bottom-4 text-2xl cursor-pointer text-zinc-800 hover:bg-zinc-900 max-[768px]:block" onClick={() => showMenu(!Toggle)}></i>
+          <i className="uil uil-times hidden absolute right-6 bottom-4 text-2xl cursor-pointer text-zinc-800 hover:text-zinc-900 max-[768px]:block" onClick={() => showMenu(!Toggle)}></i>
         </div>
 
         <div className="text-zinc-800 font-medium hidden text-lg max-[768px]:block" onClick={() => showMenu(!Toggle)}>
