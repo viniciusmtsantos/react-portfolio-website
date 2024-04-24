@@ -1,8 +1,7 @@
 export function ScrollDown() {
     return (
-        // <div className="home__scroll">
-        <div className="ml-[8.5rem] mt-[5rem] max-[992px]:ml-[7.5rem] max-[768px]:hidden">
-            <a href="#about" className="home__scroll-button button--flex">
+        <div className="ml-[9rem] max-[992px]:ml-[7.5rem] max-[768px]:hidden">
+            <a href="#about" className="inline-flex items-center">
                 <svg
                     width="32px"
                     height="32px"
@@ -38,10 +37,8 @@ export function ScrollDown() {
                         }}
                     ></path>
                 </svg>
-                {/* <span className="home__scroll-name">Role para baixo</span> */}
                 <span className="text-zinc-800 font-medium mr-1 ml-[2px]">Role para baixo</span>
-                {/* <i className="uil uil-arrow-down home__scroll-arrow"></i> */}
-                <i className="uil uil-arrow-down text-lg text-zinc-800"></i>
+                <i className="uil uil-arrow-down text-[1.25rem] text-zinc-800"></i>
             </a>
         </div >
     )
