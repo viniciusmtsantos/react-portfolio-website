@@ -9,7 +9,7 @@ export function Data() {
                 <img className="size-9 ml-2 max-[992px]:size-7 max-[350px]:size-6" src={hand} alt="hand" />
             </h1>
 
-            <h3 className="home__subtitle relative pl-[5.4rem] font-normal mb-4 before:absolute before:w-[70px] before:h-[1px] before:bg-zinc-800 before:left-0 before:top-4 max-[992px]:pl-14 max-[992px]:before:w-10 max-[992px]:before:top-[0.8rem]">Full Stack Developer</h3>
+            <h3 className="home__subtitle relative pl-[5.4rem] font-normal mb-4 before:absolute before:w-[70px] before:h-[1px] before:bg-zinc-800 before:left-0 before:top-4 max-[992px]:pl-14 max-[992px]:before:w-10 max-[992px]:before:top-[0.8rem]">Software Engineer</h3>
             <p className="max-w-[400px] mb-12 max-[992px]:max-w-[initial] max-[992px]:mb-10">
                 Atuando há dois anos com TypeScript, ReactJS, VueJS no frontend,
                 NodeJS e Golang no backend
